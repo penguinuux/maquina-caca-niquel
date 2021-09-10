@@ -9,19 +9,43 @@ body, main, div, h1 {
 body {}
 
 /* HEADER */
-.header {}
-.header__title {}
+.header {
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 12px;
+}
+
+.header__title {
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* MAIN */
 .mainSection {}
 
-.machine {}
-.machine__display {}
-.machine__slot {}
+.machine {
+    text-align: center;
+}
+.machine__display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.machine__slot {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    margin: 0 5px;
+}
 
-.message {}
+.message {
+    height: 40px;
+    margin-top: 8px;
+}
 
-.button {}
+.button {
+    margin-top: 18px;
+}
 
 /* FOOTER */
 .footer {}
