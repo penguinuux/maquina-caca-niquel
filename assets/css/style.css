@@ -1,0 +1,27 @@
+/* RESET */
+body, main, div, h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {}
+
+/* HEADER */
+.header {}
+.header__title {}
+
+/* MAIN */
+.mainSection {}
+
+.machine {}
+.machine__display {}
+.machine__slot {}
+
+.message {}
+
+.button {}
+
+/* FOOTER */
+.footer {}
