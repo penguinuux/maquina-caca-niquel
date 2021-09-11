@@ -26,16 +26,25 @@ body {}
 .machine {
     text-align: center;
 }
+
 .machine__display {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .machine__slot {
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 80px;
     margin: 0 5px;
+}
+
+.machine__slot-icon {
+    width: 80%;
 }
 
 .message {
