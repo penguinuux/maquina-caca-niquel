@@ -7,8 +7,6 @@ body, main, div, h1, ul, a {
     box-sizing: border-box;
 }
 
-/* @media (max-width: 425px){} */
-
     /* BODY */
     body {
         font-family: 'Stint Ultra Condensed', cursive;
@@ -23,6 +21,7 @@ body, main, div, h1, ul, a {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #00000036;
     }
 
     .header__logo {
@@ -128,3 +127,59 @@ body, main, div, h1, ul, a {
         height: 30px;
         color: red;
     }
+
+@media (min-width: 768px) {
+
+    .header__title {
+        font-size: 2.3rem;
+    }
+
+    .header__logo {
+        height: 70px;
+    }
+    .machine {
+        padding: 15px 0;
+    }
+
+    .machine__display {
+        flex-direction: row;
+    }   
+
+    .machine__slot {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .machine__slot-icon {
+        max-width: 165px;
+    }
+
+    .message {
+        margin: 25px auto;
+        height: 60px;
+        max-width: 400px;
+        padding: 9px 0;
+    }
+
+    .message span {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        height: 50px;
+        width: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .machine__slot {
+        width: 20vw;
+        height: 50vh;
+        border-width: 5px 13px;
+        margin: 0 20px;
+    }
+
+    .footer__author {
+        font-size: 1.2rem;
+    }
+}
