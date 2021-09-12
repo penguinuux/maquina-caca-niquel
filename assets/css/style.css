@@ -170,3 +170,16 @@ body, main, div, h1, ul, a {
         width: 110px;
     }
 }
+
+@media (min-width: 1024px) {
+    .machine__slot {
+        width: 20vw;
+        height: 50vh;
+        border-width: 5px 13px;
+        margin: 0 20px;
+    }
+
+    .footer__author {
+        font-size: 1.2rem;
+    }
+}
