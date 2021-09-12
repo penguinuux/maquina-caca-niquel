@@ -32,7 +32,9 @@ body {
 }
 
 /* MAIN */
-.mainSection {}
+.mainSection {
+    background-color: #00000085;
+}
 
 .machine {
     text-align: center;
