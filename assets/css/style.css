@@ -21,6 +21,7 @@ body, main, div, h1, ul, a {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #00000036;
     }
 
     .header__logo {
@@ -128,6 +129,14 @@ body, main, div, h1, ul, a {
     }
 
 @media (min-width: 768px) {
+
+    .header__title {
+        font-size: 2.3rem;
+    }
+
+    .header__logo {
+        height: 70px;
+    }
     .machine {
         padding: 15px 0;
     }
@@ -139,6 +148,10 @@ body, main, div, h1, ul, a {
     .machine__slot {
         height: 30vh;
         width: 30vw;
+    }
+
+    .machine__slot-icon {
+        max-width: 165px;
     }
 
     .message {
