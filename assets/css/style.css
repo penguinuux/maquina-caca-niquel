@@ -6,7 +6,10 @@ body, main, div, h1 {
 }
 
 /* BODY */
-body {}
+body {
+    font-family: 'Stint Ultra Condensed', cursive;
+    background-image: url('/assets/img/casino-slot-machine.jpg');
+}
 
 /* HEADER */
 .header {
@@ -15,9 +18,17 @@ body {}
     margin-bottom: 12px;
 }
 
+.header__logo {
+    height: 50px;
+}
+
 .header__title {
+    font-family: 'Ultra', serif;
     text-align: center;
+    font-size: 1.5rem;
     margin-top: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 20px #fff5ce;
 }
 
 /* MAIN */
@@ -34,7 +45,8 @@ body {}
 }
 
 .machine__slot {
-    border: 1px solid black;
+    border: 2px solid #894128;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +66,17 @@ body {}
 
 .button {
     margin-top: 18px;
+    height: 30px;
+    width: 100px;
+    background-color: #ffcb00;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 5px #e91e63;
+}
+
+.button:active {
+    box-shadow: 1px 3.5px #e91e63, 2px 2px 20px 6px #ffcb00;
+    transform: translateY(2px);
 }
 
 /* FOOTER */
