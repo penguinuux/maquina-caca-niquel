@@ -1,7 +1,9 @@
 /* RESET */
-body, main, div, h1 {
+body, main, div, h1, ul, a {
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
 }
 
@@ -15,9 +17,9 @@ body {
 .header {
     height: 80px;
     padding: 10px 0;
-    margin-bottom: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header__logo {
@@ -69,14 +71,11 @@ body {
     height: 40px;
     border-radius: 7px;
     background-color: #fff;
-    box-shadow: 0px 0px 0 2px #fff;
+    box-shadow: 0px 0px 20px 0px #fff, 0px 0px 0 2px #fff;
     border: 5px dotted #e91e63;
-    margin: 5px 5px;
     padding: 5px 0;
-}
-
-.message--win {
-    box-shadow: 0px 0px 20px 0px #fff;
+    max-width: 320px;
+    margin: 0 auto;
 }
 
 .message span {
@@ -104,4 +103,25 @@ body {
 }
 
 /* FOOTER */
-.footer {}
+.footer {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+.footer__author {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.footer__listItem{}
+.footer a{}
+.svg-inline--fa{
+    height: 30px;
+    color: red;
+}
