@@ -67,7 +67,25 @@ body {
 
 .message {
     height: 40px;
-    margin-top: 8px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0 2px #fff;
+    border: 5px dotted #e91e63;
+    margin: 5px 5px;
+    padding: 5px 0;
+}
+
+.message--win {
+    box-shadow: 0px 0px 20px 0px #fff;
+}
+
+.message span {
+    font-size: 1.2rem;
+}
+
+.message span b {
+    color: #e91e63;
+    text-shadow: 0px 0px 17px #ff0000f2;
 }
 
 .button {
