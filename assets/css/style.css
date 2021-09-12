@@ -12,7 +12,8 @@ body, main, div, h1, ul, a {
     /* BODY */
     body {
         font-family: 'Stint Ultra Condensed', cursive;
-        background-image: url('/assets/img/casino-slot-machine.jpg');
+        background-image: url('../img/casino-slot-machine.jpg');
+        background-position: center;
     }
 
     /* HEADER */
