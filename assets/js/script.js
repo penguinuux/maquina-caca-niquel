@@ -46,7 +46,7 @@ changeSlotImg = () => {
             lastRandom3 = random3;
 
             // Messagens para o usuário
-            if (lastRandom1 === 1 && lastRandom2 === 2 && lastRandom3 === 3) {
+            if (lastRandom1 === 1 && lastRandom2 === 1 && lastRandom3 === 1) {
                 const span = document.createElement('span');
                 span.innerHTML = '<b>7 7 7</b> Pessoa de sorte! Você ganhou o maior prêmio!';
                 userMessage.appendChild(span);
